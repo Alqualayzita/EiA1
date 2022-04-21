@@ -1,0 +1,78 @@
+header {
+    background-color: black;
+    background-image: url("../L04/assets/foto/foto3s.png");
+    background-repeat: no-repeat;
+    margin: -10px -10px 0px -10px;
+    height: 400px;
+}
+header img {
+    padding: 50px 200px 0px 200px;
+}
+a {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: right;
+    color: gray;
+}
+a:visited {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: underline;
+    text-align: right;
+}
+a:hover {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration-line:underline;
+    text-align: right;
+}
+li {
+    list-style-type: none;
+    padding: 0px 5px 0px 0px;
+    display: inline;
+}
+body {
+    background-color:white;
+}
+h2 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 20px 200px 0px 200px;
+}
+h3 {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 20px 200px 20px 200px;
+}
+.bilder{
+    padding: 0px 200px 0px 200px;
+}
+footer {
+    background-color: #eaeaea;
+    margin: 0px -10px -10px -10px;
+}
+.Kontakt {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 10px 200px 0px 200px;
+}
+.links {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+}
+.copyright {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 5px 200px 0px 200px;
+    text-align: right;
+}
