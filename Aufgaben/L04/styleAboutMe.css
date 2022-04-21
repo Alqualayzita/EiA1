@@ -46,14 +46,9 @@ h2 {
     color: black;
     padding: 20px 200px 0px 200px;
 }
-form {
-    padding: 20px 200px 0px 200px;
-}
-input {
-    padding: 20px 200px 0px 200px;
-    color: white;
-    font-size: small;
+p {
+    font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: grey;
-    width: 400px;
+    color: black;
+    padding: 20px 200px 0px 200px;
 }

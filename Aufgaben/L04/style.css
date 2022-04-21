@@ -8,6 +8,12 @@ header {
 header img {
     padding: 50px 200px 0px 200px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 80px 200px 0px 200px;
+}
 a {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,10 +35,10 @@ a:hover {
     text-decoration-line:underline;
     text-align: right;
 }
-li {
-    list-style-type: none;
-    padding: 0px 5px 0px 0px;
-    display: inline;
+li a {
+    display: block;
+    float: right;
+    padding: 20px;
 }
 body {
     background-color:white;
