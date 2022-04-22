@@ -4,7 +4,6 @@ header {
     background-repeat: no-repeat;
     margin: -10px -10px 0px -10px;
     height: 400px;
-
 }
 header img {
     padding: 50px 200px 0px 200px;
@@ -18,23 +17,30 @@ ul {
 a {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
     text-decoration: none;
     text-align: right;
+}
+a.link {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
+    text-decoration: none;
+    text-align: right;
 }
 a:visited {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: right;
+    color: white;
 }
 a:hover {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    text-decoration:underline;
+    text-decoration-line:underline;
     text-align: right;
+    color: white;
 }
 li a {
     display: block;
@@ -57,7 +63,7 @@ h3 {
     padding: 20px 200px 20px 200px;
 }
 .bilder{
-    padding: 0px 200px 0px 200px;
+    padding: 0px 200px 20px 200px;
 }
 footer {
     background-color: #eaeaea;
