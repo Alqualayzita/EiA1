@@ -53,17 +53,34 @@ h2 {
     color: black;
     padding: 20px 200px 0px 200px;
 }
-form {
-    padding: 20px 200px 700px 200px;
+
+
+#message{
+	padding: 5px 200px 5px 200px;
 }
-input {
-    padding: 20px 200px 0px 200px;
-    color: white;
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#message ul li{
+	margin-bottom: 15px;
+}
+#message ul li a{
+	display: inline;
+	color: white;
+	margin: 5px 0 0 5px;
+	background-color: gray;
+	padding: 0px 15px 0px 15px;
+	border-radius: 5px;
+}
+#message input{
+	width: 250px;
+	height: 40px;
     background-color: grey;
-    width: 400px;
+    color: white;
 }
+#message li input[type=text]{
+	border-radius: 5px;
+	border: none;
+}
+
+
 footer {
     background-color: #eaeaea;
     margin: 0px -10px -10px -10px;
