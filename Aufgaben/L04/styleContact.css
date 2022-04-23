@@ -53,10 +53,9 @@ h2 {
     color: black;
     padding: 20px 200px 0px 200px;
 }
-
-
 #message{
 	padding: 5px 200px 5px 200px;
+    padding-left: 10px;
 }
 #message ul li{
 	margin-bottom: 15px;
@@ -69,7 +68,7 @@ h2 {
 	padding: 0px 15px 0px 15px;
 }
 #message input{
-	width: 250px;
+	width: 500px;
 	height: 40px;
     background-color: grey;
     color: white;
@@ -85,8 +84,6 @@ h2 {
     height: 200px;
     background-color: grey;
 }
-
-
 footer {
     background-color: #eaeaea;
     margin: 0px -10px -10px -10px;
