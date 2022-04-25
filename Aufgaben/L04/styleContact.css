@@ -73,6 +73,10 @@ input{
     background-color: grey;
     color: white;
 }
+::placeholder {
+    color: white;
+    opacity: 1;
+}
 textarea{
     color: white;
     font-size: medium;
