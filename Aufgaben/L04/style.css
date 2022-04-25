@@ -74,16 +74,14 @@ h3 {
 footer {
     display: flex;
     justify-content: space-between;
+    max-width: 800px;
     margin: auto;
-    background-color: #eaeaea;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
 }
 .Kontakt {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+    position: ;
 }
 .links {
     font-size: small;
