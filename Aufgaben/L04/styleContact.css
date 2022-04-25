@@ -1,61 +1,62 @@
-header {
-    background-color: black;
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.containerHeader{
+    width: 100%;
+    margin: auto;
     background-image: url("../L04/assets/foto/foto3s.png");
     background-repeat: no-repeat;
-    margin: -10px -10px 0px -10px;
+    background-position: center;
+    background-size: cover;
+}
+.background{
     height: 400px;
+    max-width: 800px;
+    background-size: 100%;
+    margin: auto;
 }
 header img {
-    padding: 50px 200px 0px 200px;
+    float: left;
+    padding-top: 10px;
 }
 ul {
     list-style-type: none;
     margin: 0;
-    overflow: hidden;
-    padding: 80px 200px 0px 200px;
 }
-a {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gray;
-    text-decoration: none;
-    text-align: right;
-}
-a.link {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gray;
-    text-decoration: none;
-    text-align: right;
-}
-a:visited {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    text-align: right;
-    color: white;
-}
-a:hover {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration-line:underline;
-    text-align: right;
-    color: white;
+li {
+    float: right;
 }
 li a {
     display: block;
-    float: right;
-    padding: 20px;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover:not(.active) {
+    color: white;
+    text-decoration: underline;
+}
+.active {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.containerMain {
+    max-width: 800px;
+    margin: auto;
 }
 h2 {
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    padding: 20px 200px 0px 200px;
 }
 #message{
-	padding: 5px 200px 5px 200px;
-    padding-left: 10px;
+    padding-bottom: 50px;
 }
 #message ul li{
 	margin-bottom: 15px;
@@ -65,49 +66,40 @@ h2 {
 	color: white;
 	margin: 5px 0 0 5px;
 	background-color: gray;
-	padding: 0px 15px 0px 15px;
 }
-#message input{
-	width: 500px;
+input{
+	width: 400px;
 	height: 40px;
     background-color: grey;
     color: white;
 }
-#message li input[type=text]{
-	border-radius: 5px;
-}
-#message textarea{
+textarea{
     color: white;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 500px;
+    width: 400px;
     height: 200px;
     background-color: grey;
 }
+
+
+
+
+.containerFooter{
+    max-width: 800px;
+    margin: auto;
+}
 footer {
     background-color: #eaeaea;
-    margin: 0px -10px -10px -10px;
+    color: black;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200px;
+    margin: auto;
+}
+#wrapper {
     display: flex;
     justify-content: space-between;
-}
-.Kontakt {
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    padding: 10px 200px 0px 200px;
-}
-.links {
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    padding: 5px 0px 0px 0px;
-    text-align: center;
-}
-.copyright {
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    padding: 5px 200px 0px 200px;
-    text-align: right;
-    display: flex;
+    width: 800px;
+    margin: auto;
 }
