@@ -1,27 +1,29 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
 header {
-    background-color: black;
     background-image: url("../L04/assets/foto/foto3s.png");
     background-repeat: no-repeat;
-    margin: -10px -10px 0px -10px;
+    background-position: center;
+    background-size: cover;
     height: 400px;
+    width: 100%;
 }
 header img {
-    padding: 50px 200px 0px 200px;
+    padding-top: 10px;
+}
+header div{
+    max-width: 800px;
+    margin: auto;
 }
 ul {
     list-style-type: none;
-    margin: 0;
     overflow: hidden;
-    padding: 80px 200px 0px 200px;
+    max-width: 800px;
+    margin: auto;
 }
 a {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gray;
-    text-decoration: none;
-    text-align: right;
-}
-a.link {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
@@ -47,6 +49,15 @@ li a {
     float: right;
     padding: 20px;
 }
+.body {
+    max-width: 800px;
+    margin: auto;
+}
+.main{
+    max-width: 800px;
+    margin: auto;
+}
+
 body {
     background-color:white;
 }
@@ -54,41 +65,33 @@ h2 {
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    padding: 20px 200px 0px 200px;
 }
 h3 {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    padding: 20px 200px 20px 200px;
-}
-.bilder{
-    padding: 0px 200px 20px 200px;
 }
 footer {
-    background-color: #eaeaea;
-    margin: 0px -10px -10px -10px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    background-color: #eaeaea;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 .Kontakt {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    padding: 10px 200px 0px 200px;
 }
 .links {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    padding: 5px 0px 0px 0px;
-    text-align: center;
 }
 .copyright {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    padding: 5px 200px 0px 200px;
-    text-align: right;
-    display: flex;
 }
