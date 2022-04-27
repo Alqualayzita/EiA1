@@ -1,0 +1,109 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.containerHeader{
+    width: 100%;
+    margin: auto;
+    background-image: url("../L04/assets/foto/foto3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background{
+    height: 400px;
+    max-width: 800px;
+    background-size: 100%;
+    margin: auto;
+}
+header img {
+    float: left;
+    padding-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover:not(.active) {
+    color: white;
+    text-decoration: underline;
+}
+.active {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.containerMain {
+    max-width: 800px;
+    margin: auto;
+}
+h2 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#message{
+    padding-bottom: 50px;
+}
+#message ul li{
+	margin-bottom: 15px;
+}
+#message ul li a{
+	display: inline;
+	color: white;
+	margin: 5px 0 0 5px;
+	background-color: gray;
+}
+input{
+	width: 400px;
+	height: 40px;
+    background-color: grey;
+    color: white;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+textarea{
+    color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+}
+
+
+
+
+.containerFooter{
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    background-color: #eaeaea;
+    color: black;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200px;
+    margin: auto;
+}
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
