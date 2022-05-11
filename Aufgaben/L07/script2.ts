@@ -28,7 +28,7 @@ function zahlen (land:string, einwohner2021:number, einwohner2011:number) {
     document.querySelector(".relativEU").innerHTML = Math.round(einwohner2021 / einwohnerEu * 100)+ "%";
     document.querySelector(".wachstum").innerHTML = Math.round(einwohner2021 / einwohner2011 * 100 - 100) + "%";
     document.querySelector(".wachstumZahl").innerHTML= Math.round(einwohner2021-einwohner2011) +" Mio";
-    document.querySelector<HTMLElement>(".chart").style.height = `${Math.round(einwohner2021 / einwohnerEu * 100)}%`;
+    document.querySelector(".chart").setAttribute("style", "height:" + einwohner2021 / einwohnerEu * 100 + "%");
 };
 window.addEventListener("load", function () {
     document.querySelector(".germany").addEventListener("click", function () { zahlen(landDeutschland, einwohnerDe, einwohnerDeW); });
