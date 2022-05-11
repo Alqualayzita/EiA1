@@ -1,5 +1,3 @@
-var titleElement = document.getElementsByTagName("title")[0];
-
 var landEu:string="EU";
 var einwohnerEu:number=447;
 var einwohnerEuW:number=502;

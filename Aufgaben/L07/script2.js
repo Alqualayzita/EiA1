@@ -1,4 +1,3 @@
-var titleElement = document.getElementsByTagName("title")[0];
 var landEu = "EU";
 var einwohnerEu = 447;
 var einwohnerEuW = 502;
