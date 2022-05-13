@@ -1,0 +1,114 @@
+body {
+    background-color: #000;
+}
+
+.buttons {
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.soundA {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b7ae8
+}
+
+.soundC {
+    position: absolute;
+    left: 160px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b7ae8
+}
+
+.soundF {
+    position: absolute;
+    left: 320px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b7ae8
+}
+
+.soundG {
+    position: absolute;
+    top: 210px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundHihat {
+    position: absolute;
+    left: 160px;
+    top: 210px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundKick {
+    position: absolute;
+    left: 320px;
+    top: 210px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundLaugh1 {
+    position: absolute;
+    top: 370px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundLaugh2 {
+    position: absolute;
+    top: 370px;
+    left: 160px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d78100;
+}
+
+.soundSnare {
+    position: absolute;
+    top: 370px;
+    left: 320px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d78100;
+}
+
+.play {
+    position: absolute;
+    left: 160px;
+    top: 520px;
+    width: 150px;
+    height: 150px;
+}
