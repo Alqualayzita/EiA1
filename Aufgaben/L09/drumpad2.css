@@ -1,0 +1,134 @@
+body {
+    background-color: #000;
+}
+
+.buttons {
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.soundA {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b7ae8
+}
+
+.soundC {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b7ae8
+}
+
+.soundF {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b7ae8
+}
+
+.soundG {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundHihat {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundKick {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundLaugh1 {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed1d8e;
+}
+
+.soundLaugh2 {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d78100;
+}
+
+.soundSnare {
+    width: 150px;
+    height: 150px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d78100;
+}
+
+
+#play {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+    left: 75px;
+    top: 550px;
+}
+#stop {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+    left: 75px;
+    top: 550px;
+}
+.hidden {
+    display: none !important;
+}
+
+#shuffle {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    left: 125px;
+    top: 500px;
+}
+#microphone {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    left: 250px;
+    top: 500px;
+}
+#trash {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    left: 350px;
+    top: 500px;
+}
