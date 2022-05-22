@@ -22,8 +22,10 @@ window.addEventListener("load", function playSample() {
 
      document.querySelector(".play").addEventListener("click", function playBeat(){ 
 
-     setInterval(function() {sound[5].play()}, 1000);
-     setInterval(function() {sound[8].play()}, 1000);
-     setInterval(function() {sound[4].play()}, 1000);
+     setInterval(function() {
+          sound[5].play();
+          sound[8].play(),
+          sound[4].play();
+      }, 500);    
    })
 })

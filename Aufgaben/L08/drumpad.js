@@ -20,9 +20,11 @@ window.addEventListener("load", function playSample() {
     document.querySelector(".soundLaugh2").addEventListener("click", function () { (sound[7]).play(); });
     document.querySelector(".soundSnare").addEventListener("click", function () { (sound[8]).play(); });
     document.querySelector(".play").addEventListener("click", function playBeat() {
-        setInterval(function () { sound[5].play(); }, 1000);
-        setInterval(function () { sound[8].play(); }, 1000);
-        setInterval(function () { sound[4].play(); }, 1000);
+        setInterval(function () {
+            sound[5].play();
+            sound[8].play(),
+                sound[4].play();
+        }, 500);
     });
 });
 //# sourceMappingURL=drumpad.js.map
