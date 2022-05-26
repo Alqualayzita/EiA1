@@ -10,7 +10,15 @@ window.addEventListener("load", function () {
         new Audio("../L08/assets/sound/laugh-2.mp3"),
         new Audio("../L08/assets/sound/snare.mp3")
     ];
+    var beat = [
+        new Audio("../L08/assets/sound/kick.mp3"),
+        new Audio("../L08/assets/sound/snare.mp3"),
+        new Audio("../L08/assets/sound/hihat.mp3")
+    ];
     var index = 0;
+    function playSample(music = new Audio) {
+        music.play();
+    }
     document.querySelector(".soundA").addEventListener("click", function () { playSample(sound[0]); });
     document.querySelector(".soundC").addEventListener("click", function () { playSample(sound[1]); });
     document.querySelector(".soundF").addEventListener("click", function () { playSample(sound[2]); });
@@ -20,14 +28,11 @@ window.addEventListener("load", function () {
     document.querySelector(".soundLaugh1").addEventListener("click", function () { playSample(sound[6]); });
     document.querySelector(".soundLaugh2").addEventListener("click", function () { playSample(sound[7]); });
     document.querySelector(".soundSnare").addEventListener("click", function () { playSample(sound[8]); });
-    function playSample(music = new Audio) {
-        music.play();
-    }
     document.querySelector("#play").addEventListener("click", function () {
         var loop = setInterval(function () {
-            sound[index].play();
+            playSample(beat[index]);
             index += 1;
-            if (index > 3)
+            if (index > 2)
                 index = 0;
             document.querySelector("#stop").addEventListener("click", function () {
                 clearInterval(loop);
@@ -42,25 +47,11 @@ window.addEventListener("load", function () {
         document.querySelector("#stop").classList.add("hidden");
         document.querySelector("#play").classList.remove("hidden");
     });
-    var beat = [];
-    var indexBeat = 0;
-    var min = 0;
-    var max = 9;
-    for (let index = 0; index < sound.length; index++) {
-        var zufallsZahl = Math.round((Math.random() * (max - min)) + min);
-        beat.push(zufallsZahl);
-    }
-    function remixButton(remix = new Audio) {
-        remix.play();
-    }
-    document.querySelector("#shuffle").addEventListener('click', function () {
-        var intervalRemix = setInterval(function () {
-            sound[indexBeat].play();
-            indexBeat += 1;
-            if (indexBeat > 9)
-                indexBeat = 0;
-        });
+    document.querySelector("#shuffle").addEventListener("click", function () {
+        var playShuffle = setInterval(function () {
+            playSample(sound[index]);
+            index = Math.floor(Math.random() * 9);
+        }, 500);
     });
 });
-;
 //# sourceMappingURL=drumpad2.js.map
