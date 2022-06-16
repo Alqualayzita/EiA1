@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprach-App</title>
+    <link rel="stylesheet" href="SprachApp.css">
+    <script src="SprachApp.js"></script>
+    <meta name="viewport" content="width=375px, height=667px, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <h1 class="header"> Willkommen!</h1>
+        <div class="score" id="score"></div>
+    </header>
+    
+    <main> 
+        <div id="schwierigkeitsanzeige">
+            <h2 id="schwierigkeitstext"> Wähle deinen Schwierigkeitsgrad!</h2>
+            <button class="leicht", id="leicht">Leicht</button>
+            <button class="mittel", id="mittel">Mittel</button>
+            <button class="schwer", id="schwer">Schwer</button>
+        </div>
+        <div id="aufgabenanzeige" class="hidden">
+            <div style="min-height: 100px;">
+                <div id="satz"></div>
+                <div id="spanischer-satz"></div>
+            </div>
+            <div id="phrasen"></div>
+            <button id="next" class="hidden">Weiter</button>
+        </div>
+        <div id="ergebnis" class="hidden" style="text-align: center;">
+            Du hast alle Aufgaben geschafft!<br>
+            <button id="neustart">Neustart</button>
+            <div id="endscore"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <p> Alina Stumpf 271137</p>
+    </footer>
+</body>
