@@ -9,8 +9,8 @@
 </head>
 
 <body>
+    
     <header>
-        <h1 class="header"> Willkommen!</h1>
         <div class="score" id="score"></div>
     </header>
     
@@ -21,18 +21,21 @@
             <button class="mittel", id="mittel">Mittel</button>
             <button class="schwer", id="schwer">Schwer</button>
         </div>
+
         <div id="aufgabenanzeige" class="hidden">
-            <div style="min-height: 100px;">
+            <div>
                 <div id="satz"></div>
                 <div id="spanischer-satz"></div>
             </div>
+
             <div id="phrasen"></div>
-            <button id="next" class="hidden">Weiter</button>
         </div>
-        <div id="ergebnis" class="hidden" style="text-align: center;">
-            Du hast alle Aufgaben geschafft!<br>
-            <button id="neustart">Neustart</button>
+
+        <div id="ergebnis" class="hidden">
+            <h3 class="endtext">Glückwunsch! Du hast alle Aufgaben geschafft!</h3>
+            <br>
             <div id="endscore"></div>
+            <button id="neustart">Neustart</button>
         </div>
     </main>
     
